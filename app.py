@@ -10,7 +10,7 @@ st.set_page_config(page_title="Predictive Analytics Dashboard", layout="wide")
 
 st.title("Predictive Analytics Using Historical Data")
 
-df = pd.read_csv("data/airline-passengers.csv")
+df = pd.read_csv("airline-passengers.csv")
 
 df['Month'] = pd.to_datetime(df['Month'])
 
